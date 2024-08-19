@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <title></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#101010">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="preload" href="fonts/subset-DINPro.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/subset-DINPro-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="plugins_css/swiper-bundle.min.css" />
+    
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="page">
+
+    <header class="header">
+        <div class="header__inner container">
+            <a class="header__logo" href="#">
+                <img src="images/logo.svg" alt="BONA PEOPLE GROUP">
+            </a>
+    
+            <button class="js-menu-opener header__burger" type="button" title="Открыть меню">
+                <svg aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#burger" />
+                </svg>
+            </button>
+    
+            <div class="main-menu">
+                <div class="main-menu__top">
+                    <div class="header__logo">
+                        <img src="images/logo--white.svg" alt="BONA PEOPLE GROUP">
+                    </div>
+    
+                    <button class="js-menu-closer main-menu__closer" type="button" title="Закрыть меню">
+                        <svg aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#close" />
+                        </svg>
+                    </button>
+                </div>
+    
+                <nav class="main-menu__nav">
+                    <ul class="main-menu__list">
+                        <li class="main-menu__item">
+                            <a class="main-menu__link" href="#">Доставка</a>
+                        </li>
+    
+                        <li class="main-menu__item">
+                            <a class="js-submenu-toggler main-menu__link main-menu__link--root" href="#">
+                                <span>Рестораны</span>
+                                <svg aria-hidden="true">
+                                    <use xlink:href="images/sprite.svg#menu_arrow" />
+                                </svg>
+                            </a>
+    
+                            <div class="submenu">
+                                <ul class="submenu__list">
+                                    <li class="submenu__item">
+                                        <a class="submenu__link" href="#">Bona Capona</a>
+                                    </li>
+                                    <li class="submenu__item">
+                                        <a class="submenu__link" href="#">MZE</a>
+                                    </li>
+                                    <li class="submenu__item">
+                                        <a class="submenu__link" href="#">Склад 22</a>
+                                    </li>
+                                    <li class="submenu__item">
+                                        <a class="submenu__link" href="#">Bona Петергоф</a>
+                                    </li>
+                                    <li class="submenu__item">
+                                        <a class="submenu__link" href="#">MUST</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+    
+                        <li class="main-menu__item">
+                            <a class="main-menu__link" href="#">О нас</a>
+                        </li>
+    
+                        <li class="main-menu__item">
+                            <a class="js-submenu-toggler main-menu__link main-menu__link--root" href="#">
+                                <span>Банкеты</span>
+                                <svg aria-hidden="true">
+                                    <use xlink:href="images/sprite.svg#menu_arrow" />
+                                </svg>
+                            </a>
+    
+                            <div class="submenu">
+                                <ul class="submenu__list">
+                                    <li class="submenu__item">
+                                        <a class="submenu__link" href="#">Bona Петергоф</a>
+                                    </li>
+                                    <li class="submenu__item">
+                                        <a class="submenu__link" href="#">Bona Capona</a>
+                                    </li>
+                                    <li class="submenu__item">
+                                        <a class="submenu__link" href="#">Склад 22</a>
+                                    </li>
+                                    <li class="submenu__item">
+                                        <a class="submenu__link" href="#">MZE</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+    
+                        <li class="main-menu__item">
+                            <a class="main-menu__link" href="#">Бронирование</a>
+                        </li>
+    
+                        <li class="main-menu__item">
+                            <a class="main-menu__link" href="#">Работа по вкусу</a>
+                        </li>
+    
+                        <li class="main-menu__item">
+                            <a class="main-menu__link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="page__content">
+        <div class="container">
+            <section class="hero page__section">
+                <div class="hero__top">
+                    <div class="hero__title">
+                        <a class="hero__button-1 button button--type_1" href="#">Подбери вакансию</a>
+                        <h1>Работай<br> во вкусной команде<br> <span class="word">B<span class="letter">o</span>na</span> <span class="word">Pe<span class="letter">o</span>ple</span> <span class="word">Gr<span class="letter">o</span>up</span></h1>
+                        <a class="hero__button-2 button button--type_1" href="#">Узнай больше о компании</a>
+                    </div>
+            
+                    <picture class="hero__image">
+                        <source srcset="images/content/hero/desk.png, images/content/hero/desk@2x.png 2x" media="(min-width: 768px)">
+                        <img src="images/content/hero/mob.jpg" srcset="images/content/hero/mob@2x.jpg 2x" alt="">
+                    </picture>
+                </div>
+            
+                <button class="hero-button" type="button">
+                    <span class="hero-button__text">Заполни<br> анкету</span>
+                </button>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__menu">
+                    <ul class="footer-menu">
+                        <li class="footer-menu__item">
+                            <a class="footer-menu__link" href="#">О нас</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a class="footer-menu__link" href="#">Рестораны</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a class="footer-menu__link" href="#">Контакты</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a class="footer-menu__link" href="#">Карьера</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a class="footer-menu__link" href="#">Программа лояльности</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer__logo">
+                    <img src="images/logo--white.svg" alt="BONA PEOPLE GROUP">
+                </div>
+            </div>
+    
+            <div class="footer__bottom">
+                <div class="footer__bottom-links">
+                    <ul class="footer-menu">
+                        <li class="footer-menu__item">
+                            <a class="footer-menu__link" href="#">Политика конфиденциальности</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <p class="footer__copyrights">© ООО «BPG» 1999-2024</p>
+            </div>
+        </div>
+    </footer>
+
+    
+
+
+    <script src="js/swiper-bundle.min.js"></script>
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    
+    <script src="js/main.js"></script>
+</body>
+
+</html>

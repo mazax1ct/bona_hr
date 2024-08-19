@@ -1,0 +1,23 @@
+$xs: 480px;
+$sm: 768px;
+$md: 1024px;
+$hd: 1200px;
+$lg: 1400px;
+
+:root {
+    --main_font: 'DIN Pro', Arial, sans-serif;
+    --text_color: #000;
+    --primary_color: #FA3640;
+    --pink_color: #FF888E;
+    --grey_color: #F6F5F3;
+    --grey_color_2: #E6E6E6;
+    --grey_color_3: #6C6C6C;
+    --error_color: #F5495E;
+    --success_color: #3FA562;
+    --container_padding: 16px;
+    --container_max_width: 1192px;
+    --section_vertical_magin: 110px;
+    @media(min-width: $hd) {
+        --section_vertical_magin: 160px;
+    }
+}

@@ -1,0 +1,52 @@
+.h1,
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-top: 0;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.h2,
+h2 {
+    &:first-child {
+        margin-top: 0;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.h3,
+h3 {
+    &:first-child {
+        margin-top: 0;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.h4,
+h4 {
+    &:first-child {
+        margin-top: 0;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+ol,
+p,
+ul {
+    margin-top: 0;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
