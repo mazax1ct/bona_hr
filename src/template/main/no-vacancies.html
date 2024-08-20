@@ -1,0 +1,64 @@
+<section class="no-vacancies page__section">
+    <div class="no-vacancies__text">
+        <h2>Нет подходящей<br> вакансии?</h2>
+
+        <p>Заполни анкету и мы рассмотрим твоё резюме</p>
+    </div>
+
+    <div class="no-vacancies__form">
+        <h3>Заполни анкету</h3>
+
+        <p>Оставь свои контактные данные и резюме, и мы свяжемся с тобой, когда появится эта вакансия</p>
+
+        <form class="form">
+            <div class="form__row form__row--type_2">
+                <label class="form__label">
+                    <input id="name_" class="input error" name="name_" type="text" autocomplete="off" placeholder="Имя">
+                </label>
+
+                <label class="form__label">
+                    <input id="last_name_" class="input" name="last_name_" type="text" autocomplete="off" placeholder="Фамилия">
+                </label>
+            </div>
+
+            <div class="form__row form__row--type_2">
+                <label class="form__label calendar">
+                    <input id="birth_" class="js-date-mask input" name="birth_" type="text" autocomplete="off" placeholder="Дата рождения">
+                    <svg class="calendar__icon" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#calendar" />
+                    </svg>
+                </label>
+
+                <label class="form__label">
+                    <input id="phone_" class="js-phone-mask input" name="phone_" type="text" autocomplete="off" placeholder="Телефон">
+                </label>
+            </div>
+
+            <div class="form__row">
+                <label class="form__label">
+                    <input id="place_" class="input" name="place_" type="text" autocomplete="off" placeholder="Должность">
+                </label>
+            </div>
+
+            <div class="form__row">
+                <label class="file-input">
+                    <input id="resume_" name="resume_" type="file">
+                    <span class="file-input__text">Прикрепить резюме</span>
+                    <svg aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#file" />
+                    </svg>
+                </label>
+            </div>
+
+            <div class="form__bottom form__bottom--type_2">
+                <button class="button button--type_2" type="submit" disabled>Отправить</button>
+
+                <p>При нажатии на кнопку «Отправить» я даю согласие на обработку <a href="#">персональных данных</a></p>
+            </div>
+        </form>
+    </div>
+
+    <div class="no-vacancies__image">
+        <img src="images/content/no_vacancies/img.png" srcset="images/content/no_vacancies/img@2x.png 2x" alt="">
+    </div>
+</section>

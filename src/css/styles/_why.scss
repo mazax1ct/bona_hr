@@ -1,0 +1,58 @@
+.why-grid {
+    @media(max-width: $md - 0.02px) {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 550px;
+    }
+    @media(min-width: $md) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 60px 70px;
+    }
+}
+
+.why {
+    @media(max-width: $sm - 0.02px) {
+        max-width: 250px;
+    }
+    @media(min-width: $sm) and (max-width: $md - 0.02px) {
+        max-width: 340px;
+    }
+
+    &:not(:last-child) {
+        @media(max-width: $md - 0.02px) {
+            margin-bottom: 40px;
+        }
+    }
+
+    &:nth-child(odd) {
+        @media(max-width: $md - 0.02px) {
+            margin-left: auto;
+        }
+    }
+
+    &:nth-child(3) {
+        @media(min-width: $md) {
+            grid-column: 2;
+            grid-row: 2;
+        }
+    }
+
+    &:nth-child(4) {
+        @media(min-width: $md) {
+            grid-column: 3;
+            grid-row: 2;
+        }
+    }
+
+    img {
+        display: block;
+    }
+
+    h3 {
+        font-size: 24px;
+        font-weight: 500;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+}

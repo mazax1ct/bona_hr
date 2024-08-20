@@ -10,20 +10,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="images/favicon/site.webmanifest">
-    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#101010">
-    <link rel="shortcut icon" href="images/favicon/favicon.ico">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-config" content="images/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+    
 
     <link rel="preload" href="fonts/subset-DINPro.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" href="fonts/subset-DINPro-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="plugins_css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="plugins_css/jquery.fancybox.css" />
+    
+    <link rel="stylesheet" href="plugins_css/air-datepicker.css" />
     
     <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -157,6 +151,455 @@
                     <span class="hero-button__text">Заполни<br> анкету</span>
                 </button>
             </section>
+
+            <section class="page__section">
+                <p class="pre-title text-center">Наши гарантии</p>
+            
+                <h2 class="text-center">Почему вкусно быть<br> в команде Bona People?</h2>
+            
+                <div class="page__section-text text-center">
+                    <p>
+                        BPG eже 12 лет радует гостей изысканной кухней и эстетикой своих ресторанов. Десятки тысяч людей каждый месяц доверяют нам свой обед, ужин или семейное торжество, а мы используем свой профессионализм, таланты и опыт, чтобы наши любимые
+                        гости были счастливы.
+                    </p>
+                </div>
+            
+                <div class="why-grid">
+                    <div class="why">
+                        <img src="images/content/why/icon_1.svg" alt="">
+                        <h3>Зарплата</h3>
+                        <p>Мы гарантируем выплаты всегда вовремя и программы мотивации для увеличения дохода.</p>
+                    </div>
+            
+                    <div class="why">
+                        <img src="images/content/why/icon_2.svg" alt="">
+                        <h3>Питание</h3>
+                        <p>Бесплатное трехразовое питание и скидка 50% на все меню для сотрудника в наших проектах.</p>
+                    </div>
+            
+                    <div class="why">
+                        <img src="images/content/why/icon_3.svg" alt="">
+                        <h3>Карьерный рост</h3>
+                        <p>Реальные перспективы роста. Каждый второй руководитель вырос с линейной позиции в ресторанах нашей компании.</p>
+                    </div>
+            
+                    <div class="why">
+                        <img src="images/content/why/icon_4.svg" alt="">
+                        <h3>Бонусы</h3>
+                        <p>Подарки сотрудникам на день рождения, свадьбу, новогодняя ёлка с подарками для детей, и конечно, корпоративы.</p>
+                    </div>
+                </div>
+            
+            </section>
+
+            <section class="page__section">
+                <h2 class="text-center">Выбери вакансию<br> для себя</h2>
+            
+                <div class="page__section-text text-center">
+                    <a class="button button--type_2" href="#">Наши рестораны</a>
+                </div>
+            
+                <div class="vacancies">
+                    <div class="vacancies__item">
+                        <div class="vacancy">
+                            <img src="images/content/vacancies/img_1.jpg" srcset="images/content/vacancies/img_1@2x.jpg 2x" alt="">
+            
+                            <div class="vacancy__info">
+                                <h3>Бармен</h3>
+            
+                                <p>
+                                    Зарплата: от 88 000<br>
+                                    График работы: гибкий<br>
+                                    Опыт работы: не требуется
+                                </p>
+            
+                                <button class="button button--type_3" type="button" data-fancybox="vacancy_1" data-src="#vacancy_1">Подробнее</button>
+                            </div>
+                        </div>
+            
+                        <div id="vacancy_1" class="popup popup--w_900">
+                            <div class="vacancy-detail">
+                                <div class="vacancy-detail__image">
+                                    <img src="images/content/vacancies/img_1.jpg" srcset="images/content/vacancies/img_1@2x.jpg 2x" alt="">
+                                </div>
+            
+                                <div class="vacancy-detail__text">
+                                    <h2>Курьер</h2>
+            
+                                    <h3>Что нужно делать</h3>
+            
+                                    <p>Доставлять готовую продукцию клиентам в пределах одного района (радиус доставки около 7 км).</p>
+            
+                                    <h3>Мы предлагаем</h3>
+            
+                                    <ul>
+                                        <li>Выплаты на руки после отработанной смены.</li>
+                                        <li>Удобный график 2/2 с 10:00 до 23:00; (все районы).</li>
+                                        <li>Работа в своём районе.</li>
+                                        <li>Выплаты зависят от вас почасовая ставка + ставка за каждый отвезенный заказ.</li>
+                                        <li>Обеспечиваем заказами в течение смены.</li>
+                                        <li>Обеды и ужины за счет компании.</li>
+                                    </ul>
+            
+                                    <h3>Мы сработаемся, если</h3>
+            
+                                    <ul>
+                                        <li>Ты вежливый и пунктуальный — наши клиенты ждут своевременную доставку.</li>
+                                        <li>Ответственно относитесь к работе.</li>
+                                    </ul>
+            
+                                    <button class="button button--type_2" type="button" data-fancybox="vacancy_1_form" data-src="#vacancy_form">Откликнуться</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="vacancies__item">
+                        <div class="vacancy">
+                            <img src="images/content/vacancies/img_2.jpg" srcset="images/content/vacancies/img_2@2x.jpg 2x" alt="">
+            
+                            <div class="vacancy__info">
+                                <h3>Шеф</h3>
+            
+                                <p>
+                                    Зарплата: от 88 000<br>
+                                    График работы: гибкий<br>
+                                    Опыт работы: не требуется
+                                </p>
+            
+                                <button class="button button--type_3" type="button">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="vacancies__item">
+                        <div class="vacancy">
+                            <img src="images/content/vacancies/img_3.jpg" srcset="images/content/vacancies/img_3@2x.jpg 2x" alt="">
+            
+                            <div class="vacancy__info">
+                                <h3>Официант</h3>
+            
+                                <p>
+                                    Зарплата: от 88 000<br>
+                                    График работы: гибкий<br>
+                                    Опыт работы: не требуется
+                                </p>
+            
+                                <button class="button button--type_3" type="button">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="vacancies__item">
+                        <div class="vacancy">
+                            <img src="images/content/vacancies/img_4.jpg" srcset="images/content/vacancies/img_4@2x.jpg 2x" alt="">
+            
+                            <div class="vacancy__info">
+                                <h3>Повар</h3>
+            
+                                <p>
+                                    Зарплата: от 88 000<br>
+                                    График работы: гибкий<br>
+                                    Опыт работы: не требуется
+                                </p>
+            
+                                <button class="button button--type_3" type="button">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="vacancies__item">
+                        <div class="vacancy">
+                            <img src="images/content/vacancies/img_5.jpg" srcset="images/content/vacancies/img_5@2x.jpg 2x" alt="">
+            
+                            <div class="vacancy__info">
+                                <h3>Хостес</h3>
+            
+                                <p>
+                                    Зарплата: от 88 000<br>
+                                    График работы: гибкий<br>
+                                    Опыт работы: не требуется
+                                </p>
+            
+                                <button class="button button--type_3" type="button">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="vacancies__item">
+                        <div class="vacancy">
+                            <img src="images/content/vacancies/img_6.jpg" srcset="images/content/vacancies/img_6@2x.jpg 2x" alt="">
+            
+                            <div class="vacancy__info">
+                                <h3>Менеджер директор</h3>
+            
+                                <p>
+                                    Зарплата: от 88 000<br>
+                                    График работы: гибкий<br>
+                                    Опыт работы: не требуется
+                                </p>
+            
+                                <button class="button button--type_3" type="button">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="vacancies__item">
+                        <div class="vacancy">
+                            <img src="images/content/vacancies/img_7.jpg" srcset="images/content/vacancies/img_7@2x.jpg 2x" alt="">
+            
+                            <div class="vacancy__info">
+                                <h3>Курьер</h3>
+            
+                                <p>
+                                    Зарплата: от 88 000<br>
+                                    График работы: гибкий<br>
+                                    Опыт работы: не требуется
+                                </p>
+            
+                                <button class="button button--type_3" type="button">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="no-vacancies page__section">
+                <div class="no-vacancies__text">
+                    <h2>Нет подходящей<br> вакансии?</h2>
+            
+                    <p>Заполни анкету и мы рассмотрим твоё резюме</p>
+                </div>
+            
+                <div class="no-vacancies__form">
+                    <h3>Заполни анкету</h3>
+            
+                    <p>Оставь свои контактные данные и резюме, и мы свяжемся с тобой, когда появится эта вакансия</p>
+            
+                    <form class="form">
+                        <div class="form__row form__row--type_2">
+                            <label class="form__label">
+                                <input id="name_" class="input error" name="name_" type="text" autocomplete="off" placeholder="Имя">
+                            </label>
+            
+                            <label class="form__label">
+                                <input id="last_name_" class="input" name="last_name_" type="text" autocomplete="off" placeholder="Фамилия">
+                            </label>
+                        </div>
+            
+                        <div class="form__row form__row--type_2">
+                            <label class="form__label calendar">
+                                <input id="birth_" class="js-date-mask input" name="birth_" type="text" autocomplete="off" placeholder="Дата рождения">
+                                <svg class="calendar__icon" aria-hidden="true">
+                                    <use xlink:href="images/sprite.svg#calendar" />
+                                </svg>
+                            </label>
+            
+                            <label class="form__label">
+                                <input id="phone_" class="js-phone-mask input" name="phone_" type="text" autocomplete="off" placeholder="Телефон">
+                            </label>
+                        </div>
+            
+                        <div class="form__row">
+                            <label class="form__label">
+                                <input id="place_" class="input" name="place_" type="text" autocomplete="off" placeholder="Должность">
+                            </label>
+                        </div>
+            
+                        <div class="form__row">
+                            <label class="file-input">
+                                <input id="resume_" name="resume_" type="file">
+                                <span class="file-input__text">Прикрепить резюме</span>
+                                <svg aria-hidden="true">
+                                    <use xlink:href="images/sprite.svg#file" />
+                                </svg>
+                            </label>
+                        </div>
+            
+                        <div class="form__bottom form__bottom--type_2">
+                            <button class="button button--type_2" type="submit" disabled>Отправить</button>
+            
+                            <p>При нажатии на кнопку «Отправить» я даю согласие на обработку <a href="#">персональных данных</a></p>
+                        </div>
+                    </form>
+                </div>
+            
+                <div class="no-vacancies__image">
+                    <img src="images/content/no_vacancies/img.png" srcset="images/content/no_vacancies/img@2x.png 2x" alt="">
+                </div>
+            </section>
+
+            <section class="page__section">
+                <h2 class="text-center">Отвечаем на популярные<br> вопросы</h2>
+            
+                <div class="accordions">
+                    <div class="accordions__column">
+                        <div class="accordion">
+                            <div class="accordion__title-block">
+                                <h3>За сколько нужно бронировать ресторан на свадьбу?</h3>
+            
+                                <button class="js-accordion-toggler accordion__toggler" type="button">
+                                    <svg aria-hidden="true">
+                                        <use xlink:href="images/sprite.svg#plus" />
+                                    </svg>
+                                </button>
+                            </div>
+            
+                            <div class="accordion__body">
+                                <p>Чем раньше вы выберите зал, тем больше дополнительных услуг мы сможем предложить. За несколько дней до торжества возможно забронировать столик в общем зале для празднования в кругу близких.</p>
+                            </div>
+                        </div>
+            
+                        <div class="accordion">
+                            <div class="accordion__title-block">
+                                <h3>Как рассчитать стоимость ресторана для свадьбы?</h3>
+            
+                                <button class="js-accordion-toggler accordion__toggler" type="button">
+                                    <svg aria-hidden="true">
+                                        <use xlink:href="images/sprite.svg#plus" />
+                                    </svg>
+                                </button>
+                            </div>
+            
+                            <div class="accordion__body">
+                                <p>Чем раньше вы выберите зал, тем больше дополнительных услуг мы сможем предложить. За несколько дней до торжества возможно забронировать столик в общем зале для празднования в кругу близких.</p>
+                            </div>
+                        </div>
+            
+                        <div class="accordion">
+                            <div class="accordion__title-block">
+                                <h3>За сколько нужно бронировать ресторан на свадьбу?</h3>
+            
+                                <button class="js-accordion-toggler accordion__toggler" type="button">
+                                    <svg aria-hidden="true">
+                                        <use xlink:href="images/sprite.svg#plus" />
+                                    </svg>
+                                </button>
+                            </div>
+            
+                            <div class="accordion__body">
+                                <p>Чем раньше вы выберите зал, тем больше дополнительных услуг мы сможем предложить. За несколько дней до торжества возможно забронировать столик в общем зале для празднования в кругу близких.</p>
+                            </div>
+                        </div>
+            
+                        <div class="accordion">
+                            <div class="accordion__title-block">
+                                <h3>Как рассчитать стоимость ресторана для свадьбы?</h3>
+            
+                                <button class="js-accordion-toggler accordion__toggler" type="button">
+                                    <svg aria-hidden="true">
+                                        <use xlink:href="images/sprite.svg#plus" />
+                                    </svg>
+                                </button>
+                            </div>
+            
+                            <div class="accordion__body">
+                                <p>Чем раньше вы выберите зал, тем больше дополнительных услуг мы сможем предложить. За несколько дней до торжества возможно забронировать столик в общем зале для празднования в кругу близких.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordions__column">
+                        <div class="accordion">
+                            <div class="accordion__title-block">
+                                <h3>Как рассчитать стоимость ресторана для свадьбы?</h3>
+            
+                                <button class="js-accordion-toggler accordion__toggler" type="button">
+                                    <svg aria-hidden="true">
+                                        <use xlink:href="images/sprite.svg#plus" />
+                                    </svg>
+                                </button>
+                            </div>
+            
+                            <div class="accordion__body">
+                                <p>Чем раньше вы выберите зал, тем больше дополнительных услуг мы сможем предложить. За несколько дней до торжества возможно забронировать столик в общем зале для празднования в кругу близких.</p>
+                            </div>
+                        </div>
+            
+                        <div class="accordion">
+                            <div class="accordion__title-block">
+                                <h3>За сколько нужно бронировать ресторан на свадьбу?</h3>
+            
+                                <button class="js-accordion-toggler accordion__toggler" type="button">
+                                    <svg aria-hidden="true">
+                                        <use xlink:href="images/sprite.svg#plus" />
+                                    </svg>
+                                </button>
+                            </div>
+            
+                            <div class="accordion__body">
+                                <p>Чем раньше вы выберите зал, тем больше дополнительных услуг мы сможем предложить. За несколько дней до торжества возможно забронировать столик в общем зале для празднования в кругу близких.</p>
+                            </div>
+                        </div>
+            
+                        <div class="accordion">
+                            <div class="accordion__title-block">
+                                <h3>Как рассчитать стоимость ресторана для свадьбы?</h3>
+            
+                                <button class="js-accordion-toggler accordion__toggler" type="button">
+                                    <svg aria-hidden="true">
+                                        <use xlink:href="images/sprite.svg#plus" />
+                                    </svg>
+                                </button>
+                            </div>
+            
+                            <div class="accordion__body">
+                                <p>Чем раньше вы выберите зал, тем больше дополнительных услуг мы сможем предложить. За несколько дней до торжества возможно забронировать столик в общем зале для празднования в кругу близких.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contacts page__section">
+                <div class="contacts__image">
+                    <img src="images/content/contacts/img.png" srcset="images/content/contacts/img@2x.png 2x" alt="">
+                </div>
+            
+                <div class="contacts__text">
+                    <h2>Контакты</h2>
+            
+                    <div class="contacts__items">
+                        <div class="contact">
+                            <img src="images/icons/pin.svg" alt="">
+                            <p>192288, России, г. Санкт-Петербург,<br> ул. Бухарестская д. 176</p>
+                        </div>
+            
+                        <div class="contact">
+                            <img src="images/icons/phone.svg" alt="">
+                            <p><a href="tel:+78124067001">+7 (812) 406-70-01</a></p>
+                        </div>
+            
+                        <div class="contact">
+                            <img src="images/icons/email.svg" alt="">
+                            <p><a href="mailto:promopr@bona-capona.ru">promopr@bona-capona.ru</a></p>
+                        </div>
+                    </div>
+            
+                    <div class="contacts__socials">
+                        <h3>Мы в соцсетях</h3>
+            
+                        <div class="socials">
+                            <a class="social-link" href="#" title="Наш Instagram" target="_blank">
+                                <svg aria-hidden="true">
+                                    <use xlink:href="images/sprite.svg#inst" />
+                                </svg>
+                            </a>
+            
+                            <a class="social-link" href="#" title="Наш Telegram" target="_blank">
+                                <svg aria-hidden="true">
+                                    <use xlink:href="images/sprite.svg#tg" />
+                                </svg>
+                            </a>
+            
+                            <a class="social-link" href="#" title="Мы Вконтакте" target="_blank">
+                                <svg aria-hidden="true">
+                                    <use xlink:href="images/sprite.svg#vk" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
 
@@ -202,12 +645,68 @@
         </div>
     </footer>
 
+    <div id="vacancy_form" class="popup popup--w_700">
+        <h2 class="text-center">Заполнить анкету</h2>
     
-
-
-    <script src="js/swiper-bundle.min.js"></script>
+        <p class="text-center">Оставь свои контактные данные и резюме</p>
     
+        <form class="form">
+            <div class="form__row form__row--type_1">
+                <label class="form__label">
+                    <input id="name" class="input error" name="name" type="text" autocomplete="off" placeholder="Имя">
+                </label>
+    
+                <label class="form__label">
+                    <input id="last_name" class="input" name="last_name" type="text" autocomplete="off" placeholder="Фамилия">
+                </label>
+            </div>
+    
+            <div class="form__row form__row--type_1">
+                <label class="form__label calendar">
+                    <input id="birth" class="js-date-mask input" name="birth" type="text" autocomplete="off" placeholder="Дата рождения">
+                    <svg class="calendar__icon" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#calendar" />
+                    </svg>
+                </label>
+    
+                <label class="form__label">
+                    <input id="phone" class="js-phone-mask input" name="phone" type="text" autocomplete="off" placeholder="Телефон">
+                </label>
+            </div>
+    
+            <div class="form__row">
+                <label class="form__label">
+                    <input id="place" class="input" name="place" type="text" autocomplete="off" placeholder="Должность">
+                </label>
+            </div>
+    
+            <div class="form__row">
+                <label class="file-input">
+                    <input id="resume" name="resume" type="file">
+                    <span class="file-input__text">Прикрепить резюме</span>
+                    <svg aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#file" />
+                    </svg>
+                </label>
+            </div>
+    
+            <div class="form__bottom form__bottom--type_1">
+                <button class="button button--type_2" type="submit" disabled>Отправить</button>
+    
+                <p>При нажатии на кнопку «Отправить» я даю согласие на обработку <a href="#">персональных данных</a></p>
+            </div>
+        </form>
+    </div>
+
     <script src="js/jquery-3.7.1.min.js"></script>
+    
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/fancybox-defaults.js"></script>
+    
+    <script src="js/jquery.inputmask.min.js"></script>
+    <script src="js/inputmask-init.js"></script>
+    
+    <script src="js/air-datepicker.js"></script>
     
     <script src="js/main.js"></script>
 </body>

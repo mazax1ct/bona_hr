@@ -17,8 +17,9 @@
     &.disabled,
     &:disabled,
     &[data-disabled] {
-        background-color: #E6E6E6;
-        color: #6C6C6C;
+        background-color: var(--grey_color);
+        border-color: var(--grey_color_2);
+        color: var(--grey_color_3);
         cursor: default;
         pointer-events: none;
     }

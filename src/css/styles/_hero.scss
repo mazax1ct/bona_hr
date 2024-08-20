@@ -38,7 +38,8 @@
             font-size: 64px;
         }
         @media(min-width: $md) and (max-width: $lg - 0.02px) {
-            font-size: 50px;
+            //font-size: 50px;
+            font-size: clamp(50px,5vw, 64px);
         }
 
         .word {
@@ -120,7 +121,17 @@
             transform: none;
         }
         @media(min-width: $md) and (max-width: $lg - 0.02px) {
-            top: 225px;
+            font-size: 18px;
+            height: 176px;
+            //top: 225px;
+            width: 176px;
+        }
+
+        .hero-button__text {
+            @media(min-width: $md) and (max-width: $lg - 0.02px) {
+                height: 132px;
+                width: 132px;
+            }
         }
     }
 }

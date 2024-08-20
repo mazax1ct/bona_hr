@@ -48,6 +48,16 @@ html {
             margin-bottom: var(--section_vertical_magin);
         }
     }
+
+    &__section-text {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 660px;
+        margin-bottom: 40px;
+        @media(min-width: $lg) {
+            margin-bottom: 60px;
+        }
+    }
 }
 
 .container {

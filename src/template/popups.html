@@ -1,0 +1,52 @@
+<div id="vacancy_form" class="popup popup--w_700">
+    <h2 class="text-center">Заполнить анкету</h2>
+
+    <p class="text-center">Оставь свои контактные данные и резюме</p>
+
+    <form class="form">
+        <div class="form__row form__row--type_1">
+            <label class="form__label">
+                <input id="name" class="input error" name="name" type="text" autocomplete="off" placeholder="Имя">
+            </label>
+
+            <label class="form__label">
+                <input id="last_name" class="input" name="last_name" type="text" autocomplete="off" placeholder="Фамилия">
+            </label>
+        </div>
+
+        <div class="form__row form__row--type_1">
+            <label class="form__label calendar">
+                <input id="birth" class="js-date-mask input" name="birth" type="text" autocomplete="off" placeholder="Дата рождения">
+                <svg class="calendar__icon" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#calendar" />
+                </svg>
+            </label>
+
+            <label class="form__label">
+                <input id="phone" class="js-phone-mask input" name="phone" type="text" autocomplete="off" placeholder="Телефон">
+            </label>
+        </div>
+
+        <div class="form__row">
+            <label class="form__label">
+                <input id="place" class="input" name="place" type="text" autocomplete="off" placeholder="Должность">
+            </label>
+        </div>
+
+        <div class="form__row">
+            <label class="file-input">
+                <input id="resume" name="resume" type="file">
+                <span class="file-input__text">Прикрепить резюме</span>
+                <svg aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#file" />
+                </svg>
+            </label>
+        </div>
+
+        <div class="form__bottom form__bottom--type_1">
+            <button class="button button--type_2" type="submit" disabled>Отправить</button>
+
+            <p>При нажатии на кнопку «Отправить» я даю согласие на обработку <a href="#">персональных данных</a></p>
+        </div>
+    </form>
+</div>
