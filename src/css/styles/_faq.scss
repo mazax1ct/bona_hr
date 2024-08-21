@@ -1,3 +1,8 @@
+.faq-section {
+    position: relative;
+    z-index: 2;
+}
+
 .accordions {
     @media(min-width: $sm) {
         display: flex;

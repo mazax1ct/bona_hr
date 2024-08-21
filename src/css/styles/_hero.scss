@@ -38,7 +38,6 @@
             font-size: 64px;
         }
         @media(min-width: $md) and (max-width: $lg - 0.02px) {
-            //font-size: 50px;
             font-size: clamp(50px,5vw, 64px);
         }
 
@@ -132,6 +131,39 @@
                 height: 132px;
                 width: 132px;
             }
+        }
+    }
+
+    .decor-mobile {
+        fill: none;
+        height: 1761px;
+        left: 50%;
+        position: absolute;
+        stroke: #fff;
+        stroke-width: 120;
+        transform: translateX(-57%);
+        top: -30%;
+        width: 1853px;
+        z-index: -1;
+        @media(min-width: $md) {
+            display: none;
+        }
+    }
+
+    .decor-desktop {
+        display: none;
+        @media(min-width: $md) {
+            display: block;
+            fill: none;
+            height: 1155px;
+            left: 50%;
+            position: absolute;
+            stroke: #fff;
+            stroke-width: 168;
+            transform: translateX(-44%);
+            top: -42%;
+            width: 3313px;
+            z-index: -1;
         }
     }
 }

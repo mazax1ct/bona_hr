@@ -1,3 +1,8 @@
+.why-section {
+    position: relative;
+    z-index: 1;
+}
+
 .why-grid {
     @media(max-width: $md - 0.02px) {
         margin-left: auto;

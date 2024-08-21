@@ -1,0 +1,142 @@
+.interview-section {
+    position: relative;
+    z-index: 1;
+
+    .decor-mobile {
+        fill: none;
+        height: 849px;
+        left: 50%;
+        position: absolute;
+        stroke: #F5E7E8;
+        stroke-width: 120;
+        transform: translateX(-50%);
+        top: 30%;
+        width: 2440px;
+        z-index: -1;
+        @media(min-width: $md) {
+            display: none;
+        }
+    }
+
+    .decor-desktop {
+        display: none;
+        @media(min-width: $md) {
+            display: block;
+            fill: none;
+            height: 1155px;
+            left: 50%;
+            position: absolute;
+            stroke: #F5E7E8;
+            stroke-width: 168;
+            transform: translateX(-44%);
+            top: 50%;
+            width: 3313px;
+            z-index: -1;
+        }
+    }
+}
+
+.interview {
+    background-color: #fff;
+    border-radius: 24px;
+    overflow: hidden;
+    position: relative;
+    width: 270px;
+    z-index: 1;
+    @include hover {
+        .interview__image {
+            &::after {
+                background-color: rgba(#000,0.5);
+            }
+
+            svg {
+                fill: var(--primary_color);
+            }
+        }
+    }
+
+    &__image {
+        position: relative;
+        z-index: 1;
+
+        &::after {
+            background-color: rgba(#000, 0.2);
+            bottom: 0;
+            content: '';
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            transition: background-color 0.3s;
+            z-index: 1;
+        }
+
+        img {
+            display: block;
+        }
+
+        svg {
+            fill: #fff;
+            height: 46px;
+            left: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            transition: fill 0.3s;
+            width: 46px;
+            z-index: 2;
+        }
+    }
+
+    &__body {
+        padding: 16px 24px 24px;
+
+        h3 {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.2;
+            margin-bottom: 16px;
+
+            a {
+                &::after {
+                    bottom: 0;
+                    content: '';
+                    left: 0;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+
+    &__place {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1.2;
+        margin-bottom: 16px;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        font-size: 14px;
+    }
+}
+
+.interview-card {
+    &__video {
+        border-radius: 20px;
+        margin-bottom: 24px;
+        overflow: hidden;
+        @media(min-width: $sm) {
+            margin-bottom: 40px;
+        }
+    }
+
+    &__place {
+        font-weight: 500;
+        margin-bottom: 24px;
+        text-transform: uppercase;
+    }
+}

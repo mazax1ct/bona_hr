@@ -1,4 +1,6 @@
 .no-vacancies {
+    position: relative;
+    z-index: 2;
     @media(min-width: $sm) {
         display: grid;
         grid-template-columns: 1fr 1fr;

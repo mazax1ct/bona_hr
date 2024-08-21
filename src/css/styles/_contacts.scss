@@ -1,4 +1,6 @@
 .contacts {
+    position: relative;
+    z-index: 1;
     @media(min-width: $md) {
         align-items: center;
         display: flex;
@@ -43,6 +45,39 @@
             font-weight: 500;
             line-height: 1.2;
             margin-bottom: 24px;
+        }
+    }
+
+    .decor-mobile {
+        fill: none;
+        height: 849px;
+        left: 50%;
+        position: absolute;
+        stroke: #F5E7E8;
+        stroke-width: 120;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        width: 2440px;
+        z-index: -1;
+        @media(min-width: $md) {
+            display: none;
+        }
+    }
+
+    .decor-desktop {
+        display: none;
+        @media(min-width: $md) {
+            display: block;
+            fill: none;
+            height: 1155px;
+            left: 50%;
+            position: absolute;
+            stroke: #F5E7E8;
+            stroke-width: 168;
+            transform: translate(-43.5%, -61%);
+            top: 50%;
+            width: 3313px;
+            z-index: -1;
         }
     }
 }

@@ -1,3 +1,8 @@
+.vacancies-section {
+    position: relative;
+    z-index: 2;
+}
+
 .vacancies {
     --gap: 20px;
     display: flex;

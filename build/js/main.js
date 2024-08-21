@@ -61,3 +61,19 @@ $(".js-date-mask").each(function(index, element) {
     //visible: true,
   });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  let sliders = document.querySelectorAll('.js-cards-slider');
+
+  sliders.forEach((slider) => {
+    new Swiper(slider, {
+      loop: false,
+      slidesPerView: 'auto',
+      spaceBetween: 20,
+      navigation: {
+        nextEl: '.swiper-button-next[data-arrows="'+slider.dataset.arrows+'"]',
+        prevEl: '.swiper-button-prev[data-arrows="'+slider.dataset.arrows+'"]',
+      }
+    });
+  });
+});

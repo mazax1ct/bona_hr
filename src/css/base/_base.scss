@@ -41,6 +41,7 @@ html {
     &__content {
         flex: 1 0 auto;
         padding-bottom: var(--section_vertical_magin);
+        overflow: hidden;
     }
 
     &__section {
@@ -105,4 +106,8 @@ textarea {
 
 .text-right {
     text-align: right;
+}
+
+.compensate-for-scrollbar {
+    margin: 0 !important;
 }
