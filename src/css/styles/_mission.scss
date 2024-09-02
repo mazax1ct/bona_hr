@@ -22,7 +22,7 @@
         right: 0;
         top: 0;
         z-index: -2;
-        @media(min-width: 1920px) {
+        @media(min-width: 1192px) {
             margin-left: calc(-100vw / 2 + var(--container_max_width) / 2 - var(--container_padding));
             margin-right: calc(-100vw / 2 + var(--container_max_width) / 2 - var(--container_padding));
         }
@@ -98,7 +98,7 @@
     margin-left: calc(0.02px - var(--container_padding));
     margin-right: calc(0.02px - var(--container_padding));
     margin-bottom: var(--section_vertical_magin);
-    @media(min-width: 1920px) {
+    @media(min-width: 1192px) {
         margin-left: calc(-100vw / 2 + var(--container_max_width) / 2 - var(--container_padding));
         margin-right: calc(-100vw / 2 + var(--container_max_width) / 2 - var(--container_padding));
     }

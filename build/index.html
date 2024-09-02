@@ -17,6 +17,8 @@
 
     <link rel="stylesheet" href="plugins_css/jquery.fancybox.css" />
     
+    <link rel="stylesheet" href="plugins_css/select2.css" />
+    
     <link rel="stylesheet" href="plugins_css/air-datepicker.css" />
     
     <link rel="stylesheet" href="plugins_css/swiper-bundle.min.css" />
@@ -236,7 +238,8 @@
             
                                         <p class="interview__place">Старший официант</p>
             
-                                        <p class="interview__text">В компании уже 7 лет, победитель 2022 года с самым высоким средним чеком.</p>
+                                        <p class="interview__text">В компании уже 7 лет, победитель 2022 года с самым высоким средним чеком. В компании уже 7 лет, победитель 2022 года с самым высоким средним чеком.В компании уже 7 лет, победитель 2022 года с
+                                            самым высоким средним чеком.</p>
                                     </div>
                                 </div>
             
@@ -1131,8 +1134,12 @@
             </div>
     
             <div class="form__row">
-                <label class="form__label">
-                    <input id="place" class="input" name="place" type="text" autocomplete="off" placeholder="Должность">
+                <label class="select-wrapper">
+                    <select id="place" class="js-select" name="PLACE" data-placeholder="Должность">
+                        <option></option>
+                        <option value="Курьер">Курьер</option>
+                        <option value="Бармен">Бармен</option>
+                    </select>
                 </label>
             </div>
     
@@ -1158,6 +1165,9 @@
     
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/fancybox-defaults.js"></script>
+    
+    <script src="js/select2.full.min.js"></script>
+    <script src="js/select2-addon.js"></script>
     
     <script src="js/jquery.inputmask.min.js"></script>
     <script src="js/inputmask-init.js"></script>
